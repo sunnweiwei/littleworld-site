@@ -1,0 +1,24 @@
+{
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "query": "[out:json][timeout:40];(way[\"building\"](40.7278,-74.0012,40.7333,-73.9942);relation[\"building\"](40.7278,-74.0012,40.7333,-73.9942);way[\"building:part\"](40.7278,-74.0012,40.7333,-73.9942);relation[\"building:part\"](40.7278,-74.0012,40.7333,-73.9942);way[\"highway\"](40.7278,-74.0012,40.7333,-73.9942);way[\"leisure\"=\"park\"](40.7278,-74.0012,40.7333,-73.9942);way[\"landuse\"](40.7278,-74.0012,40.7333,-73.9942);way[\"natural\"=\"water\"](40.7278,-74.0012,40.7333,-73.9942);node[\"natural\"=\"tree\"](40.7278,-74.0012,40.7333,-73.9942););out body;>;out skel qt;",
+  "bbox": [
+    40.7278,
+    -74.0012,
+    40.7333,
+    -73.9942
+  ],
+  "downloadedAt": "2026-09-12T05:13:49.613165+00:00",
+  "bytes": 941449,
+  "elapsedSeconds": 3.3,
+  "osmTimestamp": "2026-09-12T05:12:19Z",
+  "sha256": "6e3edec80b2a780ee17e8fe4904b86723cdb7af9f994e073e81fc6ee7a8f88e1",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "licenseUrl": "https://www.openstreetmap.org/copyright",
+  "buildings": 564,
+  "taggedHeight": 557,
+  "levelsOnly": 4,
+  "fallbackHeight": 3,
+  "trees": 431,
+  "generatedDetails": "Window patterns, facade colors and tree shapes are procedural illustrations, not surveyed features. No photoreal textures. Ground is the WGS84 ellipsoid; no measured terrain or collision mesh."
+}
